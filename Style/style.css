@@ -171,14 +171,13 @@ nav ul li a{
     line-height: 20px;
 }
 #about-section{
+    max-width: 1360px;
     margin-top: -80px;
     padding: 120px 0;
     background-color: #ffffff;
     z-index: 5;
 }
 .about-container{
-    max-width: 1360px;
-    /* background-color: #c71616; */
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -212,4 +211,43 @@ nav ul li a{
 .fa-square-check{
     color: #30B868;
     border-radius: 100%;
+}
+ #callto-section {
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+.callto-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.callto-container p{
+     font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.callto-container .caption{
+     font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+footer{
+    background-color: #001931;
+    height: 348px;
+    display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-container{
+    max-width: 1360px;
+    
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: end; */
 }
