@@ -156,6 +156,7 @@ nav ul li a{
     padding: 69.5px 24px;
     box-shadow: 0 0 8px 0 #00000025;
     border-radius: 8px;
+    z-index: -1;
 }
 .card img{
     margin-bottom: 16px;
@@ -168,4 +169,47 @@ nav ul li a{
 .card p{
     font-size: 16px;
     line-height: 20px;
+}
+#about-section{
+    margin-top: -80px;
+    padding: 120px 0;
+    background-color: #ffffff;
+    z-index: 5;
+}
+.about-container{
+    max-width: 1360px;
+    /* background-color: #c71616; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.about-container .right h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #30B868;
+    
+}
+.about-container .right h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.about-container .right p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.about-container .right ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+.fa-square-check{
+    color: #30B868;
+    border-radius: 100%;
 }
