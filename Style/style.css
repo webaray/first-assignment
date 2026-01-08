@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+}
+
+
+/* Global css */
+.btn{
+    background-color: #469165;
+    padding: 12.5px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-one{
+    background-color: #469165;
+    padding: 16.5px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-two{
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 16.5px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.btn-there{
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 1000px;
+    color: #30B868;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.fa-circle{
+    font-size: 16px;
+}
+
+
+
+/* Main css */
+
+.header-container{
+    background-color: #ffffff;
+}
+nav{
+    max-width: 1360px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+
+}
+nav img{
+    width: 100px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+
+
+}
+nav ul li{
+   margin-right: 32px;
+   font-size:16px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero-section{
+    background: url(../images/Hero.png);
+    
+    height:674px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.hero-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: end;
+}
+
+.hero-container h1{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.hero-container h1 span{
+    color: #30B868;
+}
+
+.hero-container p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 46px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+.btn-inline{
+    gap: 16px;
+}
+.services-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.services-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.services-container p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    background-color: #ffffff;
+    padding: 69.5px 24px;
+    box-shadow: 0 0 8px 0 #00000025;
+    border-radius: 8px;
+}
+.card img{
+    margin-bottom: 16px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+}
