@@ -32,6 +32,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.btn-one img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
 
 .btn-one:hover{
     background: #F95555;
@@ -41,7 +45,7 @@
 .btn-two{
     background: transparent;
     border: 1px solid #ffffff;
-    padding: 16.5px 16px;
+    padding: 15px 16px;
     color: #ffffff;
     font-size: 16px;
     border-radius: 4px;
@@ -229,10 +233,14 @@ nav ul li a{
     line-height: 32px;
     
 }
-.fa-square-check{
+.right ul li img{
+    vertical-align: middle;
+}
+
+/* .fa-square-check{
     color: #30B868;
     border-radius: 100%;
-}
+} */
  #callto-section {
     max-width: 1360px;
     background-color: #F7F6F2;
@@ -248,17 +256,17 @@ nav ul li a{
     margin-bottom: 16px;
     text-transform: capitalize;
 }
-.callto-container p{
+.callto-container p {
      font-size: 16px;
     line-height: 24px;
     margin-bottom: 24px;
 }
-.callto-container .caption{
+.callto-container .caption {
      font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
 }
-footer{
+footer {
     background-color: #001931;
     height:348px ;
     background-size: cover;
@@ -268,31 +276,31 @@ footer{
     /* align-items: center; */
 
 }
-.footer-container{
+.footer-container {
     margin: 0 auto;
     max-width: 1360px;
     padding-top: 120px;
 
 }
-.social-container{
+.social-container {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     
 }
-.social h3{
+.social h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
     color: #ffffff;
     margin-bottom: 16px;
 }
-.social .icons{
+.social .icons {
     display: flex;
     gap: 16px;
 }
-.copywritr{
+.copywritr {
     padding-top: 80px;
     text-align: center;
 }
@@ -303,7 +311,7 @@ footer{
     height: 1px;
 }
 
-.copywritr p{
+.copywritr p {
     font-size: 16px;
     line-height: 24px;
     color: #FAFAFA;
