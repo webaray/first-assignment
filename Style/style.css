@@ -17,6 +17,11 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.btn:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: all .3s ease;
+}
 .btn-one{
     background-color: #469165;
     padding: 16.5px 16px;
@@ -27,6 +32,12 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.btn-one:hover{
+    background: #F95555;
+    transition: all .3s ease;
+    border: none;
+}
 .btn-two{
     background: transparent;
     border: 1px solid #ffffff;
@@ -36,6 +47,16 @@
     border-radius: 4px;
     margin-left: 16px;
     cursor: pointer;
+    vertical-align: middle;
+}
+.btn-two img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.btn-two:hover{
+    background: #F95555;
+    transition: all .3s ease;
+    border: none;
 }
 .btn-there{
     background: #ffffff;
